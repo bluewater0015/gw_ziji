@@ -1,0 +1,35 @@
+
+html,body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,p,span,i,strong {
+	margin: 0;
+	padding: 0;
+}
+
+ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input {
+	border: 0;
+	outline: 0;
+}
+select {
+	border: 0;
+	outline: none;
+	background: #fff;
+}
+textarea {
+	border: 0;
+	outline: none;
+}
+/*浮动*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+
+

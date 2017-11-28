@@ -1,0 +1,113 @@
+
+html,body,#root{
+	width: 100%;
+	height: 100%;
+}
+html {
+	font-size: 100px;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+body {
+	font-size: 16px;
+}
+.app_containers {
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+	line: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex{
+	display: flex;
+}
+.flex1{
+	flex: 1;
+}
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* 移动端 */
+[ class*="col-"] {
+	width: 100%;
+}
+/*大于768 按照这个比例显示 也就是在PC端上按照这个比例显示*/
+@media only screen and ( min-width: 768px ){
+	.col-1 { width: 8.33%; }
+	.col-2 { width: 16.66%; }
+	.col-3 { width: 25%; }
+	.col-4 { width: 33.33%; }
+	.col-5 { width: 41.66%; }
+	.col-6 { width: 50%; }
+	.col-7 { width: 58.33%; }
+	.col-8 { width: 66.66%; }
+	.col-9 { width: 75%; }
+	.col-10 { width: 83.33%; }
+	.col-11 { width: 91.66%; }
+	.col-12 { width: 100%; }
+}
+
+/*margin*/
+.margin-top1 {
+	margin-top: 0.1rem;
+}
+.margin-top2 {
+	margin-top: 0.2rem;
+}
+.margin-top {
+	margin-top: 0.3rem;
+}
+/*表单中*/
+.margin-top34 {
+	margin-top: 0.34rem;
+}
+.margin-top58 {
+	margin-top: 0.58rem;
+}
+.margin-right15 {
+	margin-right: 0.15rem;
+}
+.margin-bottom {
+	margin-bottom: 0.5rem;
+}
+.margin-bottom119 {
+	margin-bottom: 1.19rem;
+}
+/*空两格*/
+.text-indent {
+	text-indent: 2em;
+}
+/*颜色*/
+.red_color {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
